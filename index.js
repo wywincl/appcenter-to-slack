@@ -22,7 +22,7 @@ app.post('/', function (request, response) {
         throw "Name or Id of the Slack channel required";
     } else {
         response.status(204).end();
-        
+        console.log(request.body);
         request.body.channel_id = request.query.channel_id;
 
         if (!_.isUndefined(request.body.release_notes)) {

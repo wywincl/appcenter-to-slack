@@ -1,4 +1,4 @@
-AppCenter To Slack [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/vkimone/appcenter-to-slack.git)
+AppCenter To Slack [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/wywincl/appcenter-to-slack.git)
 ====================================
 
 appcenter-to-slack is a webhook receiver that will post messages to your Slack instance. AppCenter supports sending the following types of events to webhooks:

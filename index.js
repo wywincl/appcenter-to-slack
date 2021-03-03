@@ -27,12 +27,15 @@ app.post('/', function (request, response) {
 
         if (!_.isUndefined(request.body.release_notes)) {
             //Distribution
+            console.log("[debug] distribution");
             sendMsg.distribution(request.body);
         } else if (!_.isUndefined(request.body.build_status)) {
             //Build
             sendMsg.build(request.body);
+            console.log("[debug] build");
         } else {
             //Ping
+            console.log("[debug] else ping");
             sendMsg.ping(request.body);
         }
     }
